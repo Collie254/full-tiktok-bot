@@ -67,7 +67,7 @@ def loop3(): #shares
     except:
         print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
         driver.refresh()
-        loop3()
+ #       loop3()
     try:
         sleep(2)
         driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(vidUrl)
@@ -106,7 +106,7 @@ def loop4(): #likes
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div[1]/div/form/button").click()
         sleep(10)
         driver.refresh()
-        print("")
+        print("colliericch"")
         print(">>> Hearts Sent <<<")
         print("")
         sleep(1800)
